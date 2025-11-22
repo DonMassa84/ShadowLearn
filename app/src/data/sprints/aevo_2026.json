@@ -1,0 +1,22 @@
+{
+  "id": "aevo-2026-sprint",
+  "title": "AEVO Sprint – Februar 2026",
+  "examDate": "2026-02-15",
+  "durationDays": 14,
+  "modules": [
+    { "day": 1, "topic": "BBiG Grundlagen", "goal": "Rechtsrahmen verstehen" },
+    { "day": 2, "topic": "Ausbildungsordnung", "goal": "Struktur & Inhalte" },
+    { "day": 3, "topic": "JArbSchG", "goal": "Jugendschutz sicher beherrschen" },
+    { "day": 4, "topic": "Ausbildung planen", "goal": "Lernziele definieren" },
+    { "day": 5, "topic": "Unterweisung – 4 Stufen", "goal": "Musterdurchführung" },
+    { "day": 6, "topic": "Kommunikation", "goal": "Feedback & Gespäche" },
+    { "day": 7, "topic": "Motivation", "goal": "Azubi führen" },
+    { "day": 8, "topic": "Beurteilungsmethoden", "goal": "Instrumente sicher anwenden" },
+    { "day": 9, "topic": "Konflikte", "goal": "Konfliktformen & Lösungen" },
+    { "day": 10, "topic": "Praktische Unterweisung", "goal": "AEVO-Plan erstellen" },
+    { "day": 11, "topic": "AEVO Fallbeispiele", "goal": "IHK-Niveau trainieren" },
+    { "day": 12, "topic": "Rechtsfragen", "goal": "AEVO-Klausur-Style" },
+    { "day": 13, "topic": "Prüfungssimulation Teil 1", "goal": "Generalprobe" },
+    { "day": 14, "topic": "Prüfungssimulation Teil 2", "goal": "100% Sicherheit" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "fuehrung-2026-sprint",
+  "title": "Führung & Personal Sprint – April 2026",
+  "examDate": "2026-04-08",
+  "durationDays": 14,
+  "modules": [
+    { "day": 1, "topic": "Führungsmodelle", "goal": "Situative Führung anwenden" },
+    { "day": 2, "topic": "Motivation", "goal": "Theorien + Praxis" },
+    { "day": 3, "topic": "Kommunikation", "goal": "IHK-Gesprächsführung" },
+    { "day": 4, "topic": "Konfliktmanagement", "goal": "Strategien vergleichen" },
+    { "day": 5, "topic": "Arbeitsrecht Basics", "goal": "Kündigung, Abmahnung" },
+    { "day": 6, "topic": "Personalplanung", "goal": "Bedarf, Einsatz, Kosten" },
+    { "day": 7, "topic": "Personalentwicklung", "goal": "Instrumente & Systeme" },
+    { "day": 8, "topic": "Beurteilung", "goal": "Methoden + Beispiele" },
+    { "day": 9, "topic": "Gesprächsarten", "goal": "Kritik, Zielvereinbarung" },
+    { "day": 10, "topic": "Situationsaufgaben", "goal": "SA1/SA2 Training" },
+    { "day": 11, "topic": "Transferaufgaben", "goal": "50 Prüfungsfragen" },
+    { "day": 12, "topic": "Fallstudien", "goal": "Komplexe Fälle lösen" },
+    { "day": 13, "topic": "Generalprobe SA1", "goal": "Schriftlich wie IHK" },
+    { "day": 14, "topic": "Generalprobe SA2", "goal": "Maximalpunkte" }
+  ]
+}

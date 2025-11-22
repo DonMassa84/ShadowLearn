@@ -1,0 +1,47 @@
+{
+  "year": 2026,
+  "exams": [
+    {
+      "id": "aevo-2026",
+      "title": "Ausbildereignungsprüfung (AEVO)",
+      "date": "2026-02-15",
+      "type": "schriftlich + praktisch",
+      "notes": "Termin ist typischerweise Mitte Februar; Lernphase endet 31. Januar 2026."
+    },
+    {
+      "id": "sa1-2026",
+      "title": "Mitarbeiterführung – Situationsaufgabe 1",
+      "date": "2026-04-08",
+      "type": "schriftlich",
+      "notes": "Hoher Anteil an Führungsmodellen, Gesprächsführung, Motivation, Konfliktlösung."
+    },
+    {
+      "id": "sa2-2026",
+      "title": "Personalmanagement – Situationsaufgabe 2",
+      "date": "2026-04-08",
+      "type": "schriftlich",
+      "notes": "Personalplanung, Entwicklung, Beurteilung, Arbeitsrecht."
+    },
+    {
+      "id": "itfa1-2026",
+      "title": "IT-Fachaufgabe 1",
+      "date": "2026-11-09",
+      "type": "schriftlich",
+      "notes": "Analyse & Bewertung."
+    },
+    {
+      "id": "itfa2-2026",
+      "title": "IT-Fachaufgabe 2",
+      "date": "2026-11-09",
+      "type": "schriftlich",
+      "notes": "Konzeption & Architektur."
+    },
+    {
+      "id": "itfa3-2026",
+      "title": "IT-Fachaufgabe 3 (Fachgespräch)",
+      "date": "2026-11-10",
+      "type": "mündlich",
+      "notes": "Präsentation + Fachgespräch."
+    }
+  ]
+}

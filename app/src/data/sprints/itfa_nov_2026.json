@@ -1,0 +1,24 @@
+{
+  "id": "itfa-2026-sprint",
+  "title": "IT-Fachaufgaben Sprint – November 2026",
+  "examDate": "2026-11-09",
+  "durationDays": 30,
+  "modules": [
+    { "day": 1, "topic": "Analyse Grundlagen", "goal": "Projektkontext verstehen" },
+    { "day": 2, "topic": "Stakeholder", "goal": "Analyse + Machtmatrix" },
+    { "day": 3, "topic": "Risikoanalyse", "goal": "Risikomatrix ITFA" },
+    { "day": 4, "topic": "Wirtschaftlichkeit", "goal": "Kosten, Nutzen, ROI" },
+    { "day": 5, "topic": "IT-Security", "goal": "CIA, Zero Trust" },
+    { "day": 6, "topic": "Netzwerk", "goal": "Topologien & Sicherheit" },
+    { "day": 7, "topic": "Serversysteme", "goal": "Windows + Linux" },
+    { "day": 8, "topic": "Cloud", "goal": "AWS / Azure Basics" },
+    { "day": 9, "topic": "Konzeption", "goal": "ITFA2 Schriftteil" },
+    { "day": 10, "topic": "Architektur", "goal": "Diagramme, UML" },
+    { "day": 11, "topic": "Präsentation Teil 1", "goal": "Struktur" },
+    { "day": 12, "topic": "Präsentation Teil 2", "goal": "Storytelling" },
+    { "day": 13, "topic": "Fachgespräch", "goal": "Fragenkatalog" },
+    { "day": 14, "topic": "Simulation ITFA1", "goal": "Klausurmodus" },
+    { "day": 15, "topic": "Simulation ITFA2", "goal": "Konzeptprofi" },
+    { "day": 16, "topic": "Simulation ITFA3", "goal": "Fachgespräch" }
+  ]
+}
