@@ -1,9 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Freies Radio Stuttgart
-Exec=/opt/google/chrome/google-chrome --user-data-dir=/tmp/flutter_tools.UVKJOH/flutter_tools_chrome_device.GYXZTM --profile-directory=Default --app-id=nioegpngepglmgfockhmjgoljplicick
-Icon=chrome-nioegpngepglmgfockhmjgoljplicick-Default
-StartupWMClass=crx_nioegpngepglmgfockhmjgoljplicick
