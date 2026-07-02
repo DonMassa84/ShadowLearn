@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO API Test
+Exec=bash -lc 'aevo-api-test'
+Terminal=true
+Icon=utilities-terminal
+Categories=Utility;

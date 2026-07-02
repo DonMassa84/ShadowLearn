@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Mode base
+Exec=bash -lc 'aevo-set-mode base'
+Terminal=false
+Categories=Utility;

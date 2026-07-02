@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO App
+Exec=bash -lc 'aevo-app'
+Terminal=false
+Categories=Utility;

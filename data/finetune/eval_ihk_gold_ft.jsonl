@@ -1,0 +1,50 @@
+{"id": "golden_001", "instruction": "IHK-Fall/Kurzfrage: Personalbedarf berechnen. Formuliere eine prüfungsfähige Antwort.", "expected": "Bruttopersonalbedarf, fortgeschriebener Personalbestand und Nettopersonalbedarf sauber trennen."}
+{"id": "golden_002", "instruction": "IHK-Fall/Kurzfrage: Intern vs extern entscheiden. Formuliere eine prüfungsfähige Antwort.", "expected": "Interne Beschaffung ist schnell und motivierend, externe bringt neues Know-how."}
+{"id": "golden_003", "instruction": "IHK-Fall/Kurzfrage: Inhalte nennen. Formuliere eine prüfungsfähige Antwort.", "expected": "Funktion, Aufgaben, Ziele, Einbindung, Kompetenzen, Vertretung."}
+{"id": "golden_004", "instruction": "IHK-Fall/Kurzfrage: Übungen zuordnen. Formuliere eine prüfungsfähige Antwort.", "expected": "Präsentation, Interview, Postkorb, Fallstudie, Gruppendiskussion."}
+{"id": "golden_005", "instruction": "IHK-Fall/Kurzfrage: §87 Abs.1 Nr.6 BetrVG. Formuliere eine prüfungsfähige Antwort.", "expected": "Bei technischen Einrichtungen zur Leistungs-/Verhaltenskontrolle Mitbestimmung prüfen."}
+{"id": "golden_006", "instruction": "IHK-Fall/Kurzfrage: §87 Abs.1 Nr.2/3 BetrVG. Formuliere eine prüfungsfähige Antwort.", "expected": "Bei Lage, Beginn, Ende, Verlängerung oder Verkürzung der Arbeitszeit BR beteiligen."}
+{"id": "golden_007", "instruction": "IHK-Fall/Kurzfrage: §99 BetrVG. Formuliere eine prüfungsfähige Antwort.", "expected": "Bei Einstellung, Eingruppierung, Umgruppierung, Versetzung Beteiligung beachten."}
+{"id": "golden_008", "instruction": "IHK-Fall/Kurzfrage: §102 BetrVG und §623 BGB. Formuliere eine prüfungsfähige Antwort.", "expected": "BR anhören und Schriftform der Kündigung sicherstellen."}
+{"id": "golden_009", "instruction": "IHK-Fall/Kurzfrage: HR-Tool prüfen. Formuliere eine prüfungsfähige Antwort.", "expected": "Zweckbindung, Datenminimierung, Transparenz, Berechtigung, Löschung."}
+{"id": "golden_010", "instruction": "IHK-Fall/Kurzfrage: BBiG Eignung. Formuliere eine prüfungsfähige Antwort.", "expected": "Betriebliche, persönliche und fachliche Eignung prüfen."}
+{"id": "golden_011", "instruction": "IHK-Fall/Kurzfrage: Ausbildungsrahmenplan. Formuliere eine prüfungsfähige Antwort.", "expected": "Mindestinhalte sachlich/zeitlich in betrieblichen Ausbildungsplan übertragen."}
+{"id": "golden_012", "instruction": "IHK-Fall/Kurzfrage: Konflikt lösen. Formuliere eine prüfungsfähige Antwort.", "expected": "Harvard: Interessen klären, Optionen entwickeln, objektive Kriterien nutzen."}
+{"id": "golden_013", "instruction": "IHK-Fall/Kurzfrage: Lewin. Formuliere eine prüfungsfähige Antwort.", "expected": "Auftauen, Verändern, Stabilisieren mit Kommunikation und Beteiligung."}
+{"id": "golden_014", "instruction": "IHK-Fall/Kurzfrage: SARAH. Formuliere eine prüfungsfähige Antwort.", "expected": "Schock, Ärger, Rationalisierung, Akzeptanz, Handeln erkennen und begleiten."}
+{"id": "golden_015", "instruction": "IHK-Fall/Kurzfrage: 360-Grad-Feedback. Formuliere eine prüfungsfähige Antwort.", "expected": "Mehrere Perspektiven reduzieren Halo-, Status- und Primacy-Effekte."}
+{"id": "golden_016", "instruction": "IHK-Fall/Kurzfrage: Kirkpatrick. Formuliere eine prüfungsfähige Antwort.", "expected": "Reaktion, Lernen, Verhalten/Transfer, Ergebnis kontrollieren."}
+{"id": "golden_017", "instruction": "IHK-Fall/Kurzfrage: Stakeholderanalyse. Formuliere eine prüfungsfähige Antwort.", "expected": "Interessen, Einfluss, Kommunikationsbedarf und Risiken je Stakeholder klären."}
+{"id": "golden_018", "instruction": "IHK-Fall/Kurzfrage: Lastenheft. Formuliere eine prüfungsfähige Antwort.", "expected": "Was der Auftraggeber fachlich braucht."}
+{"id": "golden_019", "instruction": "IHK-Fall/Kurzfrage: Pflichtenheft. Formuliere eine prüfungsfähige Antwort.", "expected": "Wie der Auftragnehmer die Anforderungen technisch erfüllt."}
+{"id": "golden_020", "instruction": "IHK-Fall/Kurzfrage: RACI/RASI. Formuliere eine prüfungsfähige Antwort.", "expected": "Verantwortung, Entscheidung, Beratung/Unterstützung, Information klären."}
+{"id": "golden_021", "instruction": "IHK-Fall/Kurzfrage: CPI. Formuliere eine prüfungsfähige Antwort.", "expected": "EV/AC; unter 1 Kostenproblem."}
+{"id": "golden_022", "instruction": "IHK-Fall/Kurzfrage: SPI. Formuliere eine prüfungsfähige Antwort.", "expected": "EV/PV; unter 1 Terminproblem."}
+{"id": "golden_023", "instruction": "IHK-Fall/Kurzfrage: EAC/VAC. Formuliere eine prüfungsfähige Antwort.", "expected": "Prognose Endkosten und Budgetabweichung interpretieren."}
+{"id": "golden_024", "instruction": "IHK-Fall/Kurzfrage: Qualitätsplan. Formuliere eine prüfungsfähige Antwort.", "expected": "Standards, Tests, Verantwortliche, Dokumentation, Audits, Abnahme."}
+{"id": "golden_025", "instruction": "IHK-Fall/Kurzfrage: FMEA/RPZ. Formuliere eine prüfungsfähige Antwort.", "expected": "Fehler, Ursache, Wirkung, Bewertung, Maßnahmen priorisieren."}
+{"id": "golden_026", "instruction": "IHK-Fall/Kurzfrage: MTA. Formuliere eine prüfungsfähige Antwort.", "expected": "Meilenstein-Trendanalyse zur Frühwarnung."}
+{"id": "golden_027", "instruction": "IHK-Fall/Kurzfrage: PDCA. Formuliere eine prüfungsfähige Antwort.", "expected": "Plan, Do, Check, Act mit KPI-Review."}
+{"id": "golden_028", "instruction": "IHK-Fall/Kurzfrage: SLA. Formuliere eine prüfungsfähige Antwort.", "expected": "Verfügbarkeit, Reaktionszeit, Wiederherstellungszeit, Messwerte festlegen."}
+{"id": "golden_029", "instruction": "IHK-Fall/Kurzfrage: Service Desk. Formuliere eine prüfungsfähige Antwort.", "expected": "Mitarbeiter, Schulung, Infrastruktur, Prozesse, Datenbank."}
+{"id": "golden_030", "instruction": "IHK-Fall/Kurzfrage: Phasen. Formuliere eine prüfungsfähige Antwort.", "expected": "Initialisierung, Planung, Durchführung, Abschluss mit Ergebnissen."}
+{"id": "golden_031", "instruction": "IHK-Fall/Kurzfrage: Ablauf. Formuliere eine prüfungsfähige Antwort.", "expected": "Berechtigung, Relevanz, Kalkulation, Wirtschaftlichkeit, Planung, Umsetzung, Erfolg."}
+{"id": "golden_032", "instruction": "IHK-Fall/Kurzfrage: Kriterien. Formuliere eine prüfungsfähige Antwort.", "expected": "Funktionsumfang, Integrationstest, Sicherheit, Ergonomie, Dokumentation."}
+{"id": "golden_033", "instruction": "IHK-Fall/Kurzfrage: Lessons Learned. Formuliere eine prüfungsfähige Antwort.", "expected": "Dokumentation, Wissensdatenbank, Übergabe, Review."}
+{"id": "golden_034", "instruction": "IHK-Fall/Kurzfrage: Mitbestimmung. Formuliere eine prüfungsfähige Antwort.", "expected": "KI-HR-Tool: DSGVO, Transparenz, §87 Abs.1 Nr.6 BetrVG, menschliche Entscheidung."}
+{"id": "golden_035", "instruction": "IHK-Fall/Kurzfrage: Feedback. Formuliere eine prüfungsfähige Antwort.", "expected": "Ich-Botschaften, aktiv zuhören, konkrete Beobachtung, Zielvereinbarung."}
+{"id": "golden_036", "instruction": "IHK-Fall/Kurzfrage: Integration. Formuliere eine prüfungsfähige Antwort.", "expected": "Fachliche, soziale und organisatorische Integration planen."}
+{"id": "golden_037", "instruction": "IHK-Fall/Kurzfrage: Anzeichen. Formuliere eine prüfungsfähige Antwort.", "expected": "Fehlzeiten, Rückzug, Dienst nach Vorschrift, keine Kritik, Passivität."}
+{"id": "golden_038", "instruction": "IHK-Fall/Kurzfrage: Intern/extern. Formuliere eine prüfungsfähige Antwort.", "expected": "Bindung nach innen, Attraktivität nach außen."}
+{"id": "golden_039", "instruction": "IHK-Fall/Kurzfrage: ArbZG. Formuliere eine prüfungsfähige Antwort.", "expected": "Höchstarbeitszeit, Pausen, Ruhezeiten, Nacht-/Sonnarbeit beachten."}
+{"id": "golden_040", "instruction": "IHK-Fall/Kurzfrage: JAV/BR. Formuliere eine prüfungsfähige Antwort.", "expected": "Mängel aufnehmen, Qualifizierung, Ausbildungsplan, Feedback, Kontrolle."}
+{"id": "golden_041", "instruction": "IHK-Fall/Kurzfrage: Personalakte. Formuliere eine prüfungsfähige Antwort.", "expected": "Einsicht, Richtigkeit, Zugriffsbeschränkung, Löschung beachten."}
+{"id": "golden_042", "instruction": "IHK-Fall/Kurzfrage: Anbieterwahl. Formuliere eine prüfungsfähige Antwort.", "expected": "Kriterien gewichten, bewerten, Entscheidung begründen."}
+{"id": "golden_043", "instruction": "IHK-Fall/Kurzfrage: Gegenmaßnahmen. Formuliere eine prüfungsfähige Antwort.", "expected": "Vermeiden, vermindern, übertragen oder akzeptieren."}
+{"id": "golden_044", "instruction": "IHK-Fall/Kurzfrage: Kommunikation. Formuliere eine prüfungsfähige Antwort.", "expected": "Ziel, Inhalt, Zielgruppe, Medium, Terminplan."}
+{"id": "golden_045", "instruction": "IHK-Fall/Kurzfrage: Stakeholder. Formuliere eine prüfungsfähige Antwort.", "expected": "Ziel, Inhalt, Häufigkeit, Medium, Verantwortlicher."}
+{"id": "golden_046", "instruction": "IHK-Fall/Kurzfrage: Deckungsbeitrag. Formuliere eine prüfungsfähige Antwort.", "expected": "Umsatz minus variable Kosten; danach Fixkosten zum Gewinn."}
+{"id": "golden_047", "instruction": "IHK-Fall/Kurzfrage: Qualifikationsmatrix. Formuliere eine prüfungsfähige Antwort.", "expected": "Soll-Anforderungen mit Ist-Kompetenzen abgleichen."}
+{"id": "golden_048", "instruction": "IHK-Fall/Kurzfrage: situativ. Formuliere eine prüfungsfähige Antwort.", "expected": "Reifegrad, Motivation, Erfahrung und Aufgabe bestimmen Führungsverhalten."}
+{"id": "golden_049", "instruction": "IHK-Fall/Kurzfrage: Eskalation vermeiden. Formuliere eine prüfungsfähige Antwort.", "expected": "Früh klären, Regeln vereinbaren, Moderation, Win-win."}
+{"id": "golden_050", "instruction": "IHK-Fall/Kurzfrage: IHK-Antwort. Formuliere eine prüfungsfähige Antwort.", "expected": "Fallbezug, Methode, Maßnahme, KPI, Recht, Kontrolle."}

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Coach Drill
+Exec=bash -lc 'aevo-coach drill'
+Terminal=false
+Categories=Utility;

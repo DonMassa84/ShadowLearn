@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Mode exam15
+Exec=/home/schattenmacher/.local/bin/aevo-mode-exam15
+Icon=appointment-soon
+Terminal=true

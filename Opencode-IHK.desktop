@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Opencode IHK
+Comment=Starte Opencode im IHK/LinuxMint-Projekt
+Exec=/home/schattenmacher/start_opencode_project.sh
+Icon=utilities-terminal
+Terminal=false
+Categories=Development;Utility;
+StartupNotify=true

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Slideshow (Start/Stop)
+Comment=Toggle AEVO Feb2026 Wallpaper Slideshow
+Exec=/home/schattenmacher/.local/bin/aevo-wallpaper-toggle.sh
+Terminal=false
+Icon=preferences-desktop-wallpaper
+Categories=Education;Utility;

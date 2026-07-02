@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Mode wählen
+Comment=AEVO Wallpaper-Modus umschalten
+Exec=/home/schattenmacher/.local/bin/aevo-mode-choose
+Terminal=false
+Categories=Education;Utility;

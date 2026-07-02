@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Thunderbird Workflow
+Comment=Opencode Session für Thunderbird Mail-Sortierung und RAG-Import
+Exec=/home/schattenmacher/start_opencode_thunderbird_workflow.sh
+Icon=utilities-terminal
+Terminal=false
+Categories=Development;Utility;
+StartupNotify=true

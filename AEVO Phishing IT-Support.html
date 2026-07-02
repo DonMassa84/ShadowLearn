@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEVO-Präsentation: Phishing im IT-Support</title>
+    <style>
+        /* Theme Variables */
+        :root {
+            --font-family-display: Arial, sans-serif;
+            --font-weight-display: 600;
+            --font-family-content: Arial, sans-serif;
+            --font-weight-content: 400;
+            --font-size-content: 16px;
+            --line-height-content: 1.4;
+        }
+
+        /* DARK THEME */
+        body.theme-dark {
+            --color-bg-base: #0f172a;
+            --color-bg-elevated: #020617;
+            --color-bg-surface: #1e293b;
+            --color-bg-muted: #334155;
+            --color-text-primary: #f1f5f9;
+            --color-text-secondary: #cbd5e1;
+            --color-text-muted: #94a3b8;
+            --color-text-accent: #38bdf8;
+            --color-primary: #38bdf8;
+            --color-primary-foreground: #0f172a;
+        }
+
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-family-content);
+            font-weight: var(--font-weight-content);
+            font-size: var(--font-size-content);
+            line-height: var(--line-height-content);
+            overflow-x: hidden;
+        }
+
+        /* Slide Container */
+        .slide {
+            width: 960px;
+            height: 540px;
+            margin: 0 auto 20px;
+            display: flex;
+            flex-shrink: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Layout Utilities */
+        .row { flex-direction: row; }
+        .col { flex-direction: column; }
+        .center {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .space-between { justify-content: space-between; }
+        .items-center { align-items: center; }
+        .items-start { align-items: flex-start; }
+        .fill-width { flex: 1; }
+        .fill-height { flex: 1; display: flex; flex-direction: column; }
+
+        /* Spacing */
+        .gap-sm { gap: 0.5rem; }
+        .gap-md { gap: 1rem; }
+        .gap-lg { gap: 1.5rem; }
+        .gap-xl { gap: 2rem; }
+
+        .p-4 { padding: 1rem; }
+        .p-6 { padding: 1.5rem; }
+        .p-8 { padding: 2rem; }
+        .p-12 { padding: 3rem; }
+        .p-16 { padding: 4rem; }
+
+        .mb-2 { margin-bottom: 0.5rem; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .mt-2 { margin-top: 0.5rem; }
+        .mt-4 { margin-top: 1rem; }
+        .mt-6 { margin-top: 1.5rem; }
+        .mt-8 { margin-top: 2rem; }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-family-display);
+            font-weight: var(--font-weight-display);
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        h1 { font-size: 3rem; }
+        h2 { font-size: 2.25rem; }
+        h3 { font-size: 1.75rem; }
+        h4 { font-size: 1.5rem; }
+
+        .text-6xl { font-size: 3.75rem; }
+        .text-5xl { font-size: 3rem; }
+        .text-4xl { font-size: 2.25rem; }
+        .text-3xl { font-size: 1.875rem; }
+        .text-2xl { font-size: 1.5rem; }
+        .text-xl { font-size: 1.25rem; }
+        .text-lg { font-size: 1.125rem; }
+        .text-base { font-size: 1rem; }
+        .text-sm { font-size: 0.875rem; }
+
+        .font-bold { font-weight: 700; }
+        .font-semibold { font-weight: 600; }
+        .font-medium { font-weight: 500; }
+        .font-normal { font-weight: 400; }
+
+        .text-center { text-align: center; }
+        .text-left { text-align: left; }
+
+        .opacity-90 { opacity: 0.9; }
+        .opacity-80 { opacity: 0.8; }
+
+        /* Lists */
+        ul, ol {
+            margin-left: 2rem;
+            line-height: 1.8;
+        }
+        ul li { list-style: disc; }
+        li { margin-bottom: 0.75rem; }
+        li:last-child { margin-bottom: 0; }
+
+        /* Card Styles */
+        .card {
+            padding: 1.5rem;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Feature highlight */
+        .highlight {
+            padding: 1rem;
+            border-left: 4px solid #38bdf8;
+        }
+    </style>
+</head>
+<body class="theme-dark">
+
+    <!-- Slide 1: Title -->
+    <section class="slide p-16 col center" style="background-color: #020617; color: #f1f5f9;">
+        <h1 class="text-6xl mb-4" style="color: #38bdf8;">Phishing im IT-Support</h1>
+        <p class="text-2xl mb-8" style="color: #cbd5e1;">Erkennen, sicher behandeln, melden</p>
+        <p class="text-lg" style="color: #94a3b8;">AEVO-Ausbildungseinheit</p>
+        <p class="text-sm mt-8" style="color: #94a3b8;">Daniel Massa • IT-Ausbildungsleiter • Januar 2026</p>
+    </section>
+
+    <!-- Slide 2: Einstieg -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Einstieg: Warum Phishing?</h2>
+        <ul class="text-lg" style="color: #cbd5e1;">
+            <li>Ein Klick kann zu Datenabfluss führen</li>
+            <li>Oder zu Betriebsausfall (Ransomware)</li>
+            <li>Sicherheitskultur wird hier aufgebaut</li>
+            <li>1st-Level-Support = erste Abwehrlinie</li>
+        </ul>
+    </section>
+
+    <!-- Slide 3: Ausgangssituation & Zielgruppe -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Ausgangssituation</h2>
+        <p class="text-lg mb-6" style="color: #cbd5e1;">
+            Mittelständiges Unternehmen, MS 365, Outlook, Defender
+        </p>
+        <p style="color: #cbd5e1; margin-bottom: 1rem;"><strong>Zielgruppe:</strong> Auszubildender Fachinformatiker Systemintegration, 1. Lehrjahr</p>
+        <ul class="text-lg" style="color: #cbd5e1;">
+            <li>Kennt Basics: Outlook, Ticketbearbeitung</li>
+            <li>Unsicher bei Security-Fällen</li>
+            <li>Neu im 1st-Level-Support</li>
+        </ul>
+    </section>
+
+    <!-- Slide 4: Feinlernziel SMART -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Feinlernziel (SMART)</h2>
+        <div class="highlight" style="background-color: #1e293b; color: #f1f5f9; margin-bottom: 1rem;">
+            <p class="text-lg"><strong>Der Auszubildende kann nach 45–60 Minuten:</strong></p>
+        </div>
+        <ul class="text-lg" style="color: #cbd5e1;">
+            <li>Mindestens 6 typische Phishing-Merkmale erkennen</li>
+            <li>Verdächtige Mail sicher behandeln (nicht klicken)</li>
+            <li>Korrekt melden und Ticket vollständig dokumentieren</li>
+            <li>Eskalation nach Vorgabe auslösen</li>
+        </ul>
+    </section>
+
+    <!-- Slide 5: Die 6 Phishing-Merkmale (Teil 1) -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Merkmale erkennen (1–3)</h2>
+        <div class="fill-height row gap-lg">
+            <div class="fill-width card" style="background-color: #1e293b; color: #f1f5f9;">
+                <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">1. Absenderadresse</h4>
+                <p style="color: #cbd5e1; font-size: 0.95rem;">Ähnlich, aber nicht identisch zur echten Adresse</p>
+            </div>
+            <div class="fill-width card" style="background-color: #1e293b; color: #f1f5f9;">
+                <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">2. Dringende Sprache</h4>
+                <p style="color: #cbd5e1; font-size: 0.95rem;">„Sofort!", „Konto gesperrt" → Zeitdruck</p>
+            </div>
+            <div class="fill-width card" style="background-color: #1e293b; color: #f1f5f9;">
+                <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">3. Verdächtige Links</h4>
+                <p style="color: #cbd5e1; font-size: 0.95rem;">Hover-Test zeigt echte URL nicht</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide 6: Die 6 Phishing-Merkmale (Teil 2) -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Merkmale erkennen (4–6)</h2>
+        <div class="fill-height row gap-lg">
+            <div class="fill-width card" style="background-color: #1e293b; color: #f1f5f9;">
+                <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">4. Generische Anrede</h4>
+                <p style="color: #cbd5e1; font-size: 0.95rem;">„Sehr geehrter Kunde" statt Name</p>
+            </div>
+            <div class="fill-width card" style="background-color: #1e293b; color: #f1f5f9;">
+                <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">5. Grammatikfehler</h4>
+                <p style="color: #cbd5e1; font-size: 0.95rem;">Schlechte Syntax, merkwürdige Formatierung</p>
+            </div>
+            <div class="fill-width card" style="background-color: #1e293b; color: #f1f5f9;">
+                <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">6. Verdächtige Anhänge</h4>
+                <p style="color: #cbd5e1; font-size: 0.95rem;">.exe, .zip, .ps1, .scr</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide 7: Vier-Stufen-Methode -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Lernmethode: 4-Stufen</h2>
+        <ul class="text-lg" style="color: #cbd5e1;">
+            <li><strong>0–15 min:</strong> Vorwissen, 6 Merkmale, Beispielmail Demo</li>
+            <li><strong>15–30 min:</strong> Azubi macht nach, erklärt Schritte</li>
+            <li><strong>30–45 min:</strong> Üben mit 2–3 neuen Mails</li>
+            <li><strong>45–60 min:</strong> Arbeitsprobe + Kontrollfragen</li>
+        </ul>
+    </section>
+
+    <!-- Slide 8: Medien & Organisation -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Medien & Lernort</h2>
+        <div class="fill-height row gap-lg">
+            <div class="fill-width">
+                <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">Medien</h4>
+                <ul class="text-lg" style="color: #cbd5e1;">
+                    <li>Beamer (Vormachen)</li>
+                    <li>Ticketsystem Testumgebung</li>
+                    <li>Whiteboard</li>
+                </ul>
+            </div>
+            <div class="fill-width">
+                <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">Lernort & Zeit</h4>
+                <ul class="text-lg" style="color: #cbd5e1;">
+                    <li>Arbeitsplatz oder Besprechungsraum</li>
+                    <li>Testdaten (sichere Umgebung)</li>
+                    <li>Dienstag, 10:00 Uhr</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide 9: Plan B (Contingency) -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Plan B: Ausfallsicherung</h2>
+        <div class="fill-height row gap-lg">
+            <div class="fill-width card" style="background-color: #1e293b; color: #f1f5f9;">
+                <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">Technik fällt aus</h4>
+                <p style="color: #cbd5e1; font-size: 0.95rem;">Ausdruck + Checkliste + Mock-Dokumentation</p>
+            </div>
+            <div class="fill-width card" style="background-color: #1e293b; color: #f1f5f9;">
+                <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">Zeit knapp</h4>
+                <p style="color: #cbd5e1; font-size: 0.95rem;">Übungsbeispiele reduzieren, Pflichtkriterien behalten</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide 10: Lernerfolgskontrolle -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Erfolgskontrolle: Arbeitsprobe</h2>
+        <div class="fill-height">
+            <h4 style="color: #38bdf8; margin-bottom: 1rem;">Pflichtkriterien (Sicherheit)</h4>
+            <ul class="text-lg" style="color: #cbd5e1; margin-bottom: 1rem;">
+                <li>Mail nicht angeklickt</li>
+                <li>Korrekt gemeldet (Report-Phishing)</li>
+                <li>Ticket vollständig dokumentiert</li>
+            </ul>
+            <h4 style="color: #38bdf8; margin-bottom: 0.5rem;">Bestanden wenn:</h4>
+            <p style="color: #cbd5e1;">Beide Pflichtkriterien + 4 von 5 Qualitätskriterien ✓</p>
+        </div>
+    </section>
+
+    <!-- Slide 11: Umgang mit Lernschwierigkeiten -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Lernschwierigkeiten → Maßnahmen</h2>
+        <ul class="text-lg" style="color: #cbd5e1;">
+            <li>Tempo reduzieren, Teilschritte fokussieren</li>
+            <li>Kurzer Screencast zur Wiederholung</li>
+            <li>Lernpartnerschaft mit Azubi 2./3. Lehrjahr</li>
+            <li>Transferauftrag: echte Fälle unter Aufsicht bearbeiten</li>
+        </ul>
+    </section>
+
+    <!-- Slide 12: Kontrollquestions -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Kontrollquestions (Arbeitsprobe)</h2>
+        <div class="fill-height">
+            <h4 style="color: #38bdf8; margin-bottom: 1rem;">Frage 1:</h4>
+            <p style="color: #cbd5e1; margin-bottom: 1.5rem;">Warum darfst du auf den Link in dieser Mail nicht klicken? (Begründung mit erkannten Merkmalen)</p>
+            <h4 style="color: #38bdf8; margin-bottom: 1rem;">Frage 2:</h4>
+            <p style="color: #cbd5e1;">Welche Abteilung/Person muss dich kontaktieren, wenn ein verdächtiger Fall eskaliert ist?</p>
+        </div>
+    </section>
+
+    <!-- Slide 13: Transferauftrag -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Transfer ins echte Arbeiten</h2>
+        <div class="highlight" style="background-color: #1e293b; color: #f1f5f9;">
+            <p class="text-lg mb-4"><strong>Ab nächstem Support-Tag:</strong></p>
+            <p style="color: #cbd5e1;">Auszubildender bearbeitet reale Verdachtsfälle zunächst unter meiner Aufsicht, dokumentiert im Berichtsheft.</p>
+        </div>
+        <p style="color: #94a3b8; margin-top: 1rem; font-size: 0.95rem;">Damit wird Handlungskompetenz unter realen Bedingungen aufgebaut.</p>
+    </section>
+
+    <!-- Slide 14: Begründung Ausbildungsrelevanz -->
+    <section class="slide p-16 col" style="background-color: #0f172a; color: #f1f5f9;">
+        <h2 class="mb-6" style="color: #38bdf8;">Ausbildungsrelevanz</h2>
+        <ul class="text-lg" style="color: #cbd5e1;">
+            <li>Berufliche Handlungskompetenz (Erkennen, Handeln, Eskalieren)</li>
+            <li>Reduziert Fehlerfolgen (Sicherheit, Compliance)</li>
+            <li>Sicherheitskultur des Unternehmens mittragen</li>
+            <li>Praxis-nah, sofort anwendbar im 1st-Level-Support</li>
+        </ul>
+    </section>
+
+    <!-- Slide 15: Schlusswort -->
+    <section class="slide p-16 col center" style="background-color: #020617; color: #f1f5f9;">
+        <h2 class="text-4xl mb-6" style="color: #38bdf8;">Vielen Dank!</h2>
+        <p class="text-2xl" style="color: #cbd5e1;">Fragen?</p>
+        <p class="text-sm mt-8" style="color: #94a3b8;">daniel.massa@unternehmen.de</p>
+    </section>
+
+</body>
+</html>

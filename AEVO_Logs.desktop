@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Logs
+Exec=bash -lc 'aevo-logs'
+Terminal=true
+Categories=Utility;

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Slideshow Start
+Exec=bash -lc 'aevo-start'
+Terminal=false
+Categories=Utility;

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Coach
+Exec=/home/schattenmacher/.local/bin/aevo-coach menu
+Terminal=true
+Categories=Education;

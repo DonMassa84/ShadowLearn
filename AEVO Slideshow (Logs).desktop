@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Slideshow (Logs)
+Comment=Live-Logs der AEVO Slideshow
+Exec=/home/schattenmacher/.local/bin/aevo-wallpaper-logs.sh
+Terminal=true
+Icon=utilities-terminal
+Categories=Education;Utility;

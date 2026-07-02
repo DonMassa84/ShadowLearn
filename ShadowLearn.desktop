@@ -1,11 +1,8 @@
 [Desktop Entry]
-Version=1.0
 Type=Application
-Name=ShadowLearn
-Comment=Starte deine Lern-Plattform
-# Dieser Befehl geht in den Ordner, startet den Server UND öffnet den Browser (--open)
-Exec=bash -c "cd ~/Dokumente/shadow-learn && npm run dev -- --open"
-# Wir nutzen ein Standard-Icon. Du kannst hier auch einen Pfad zu deinem Bild angeben.
-Icon=applications-education
+Name=ShadowLearn Dev
+Comment=Startet die ShadowLearn Lern-App (Dev-Server)
+Exec=/bin/bash -lc 'cd "$HOME/Dokumente/shadow-learn" && npm run dev -- --host'
 Terminal=true
-Categories=Education;
+Icon=utilities-terminal
+Categories=Education;Development;

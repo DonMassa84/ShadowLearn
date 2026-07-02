@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Mode exam15
+Exec=bash -lc 'aevo-set-mode exam15'
+Terminal=false
+Categories=Utility;

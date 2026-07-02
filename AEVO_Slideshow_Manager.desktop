@@ -1,0 +1,34 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Slideshow Manager
+Comment=AEVO Wallpaper Slideshow (Rebuild/Strategie/Master/Ultra-Fast)
+Exec=bash -lc 'REPO_DIR="/home/schattenmacher/aevo-presentation-system" "/home/schattenmacher/aevo-presentation-system/export/bin/aevo-slideshow-launcher"'
+Icon=preferences-desktop-wallpaper
+Terminal=false
+Categories=Education;Utility;
+StartupNotify=true
+Actions=Rebuild;Strategie;Master;UltraFast;Status;Stop
+
+[Desktop Action Rebuild]
+Name=Start Rebuild
+Exec=bash -lc 'REPO_DIR="/home/schattenmacher/aevo-presentation-system" aevo-mode-rebuild'
+
+[Desktop Action Strategie]
+Name=Start Strategie
+Exec=bash -lc 'REPO_DIR="/home/schattenmacher/aevo-presentation-system" aevo-mode-strategie'
+
+[Desktop Action Master]
+Name=Start Master
+Exec=bash -lc 'REPO_DIR="/home/schattenmacher/aevo-presentation-system" aevo-mode-master'
+
+[Desktop Action UltraFast]
+Name=Start Ultra-Fast
+Exec=bash -lc 'REPO_DIR="/home/schattenmacher/aevo-presentation-system" aevo-mode-ultra-fast'
+
+[Desktop Action Status]
+Name=Show Status
+Exec=bash -lc 'REPO_DIR="/home/schattenmacher/aevo-presentation-system" aevo-which-slide || true; sleep 1'
+
+[Desktop Action Stop]
+Name=Stop Loop
+Exec=bash -lc 'systemctl --user stop aevo-wallpaper-loop.service || true; pkill -f "aevo-wallpaper-loop\.sh" || true'

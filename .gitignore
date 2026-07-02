@@ -1,0 +1,64 @@
+
+# --- Shadowmaker standard hygiene ---
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+.DS_Store
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.cache/
+.local/
+reports/private/
+secrets/
+*.key
+*.pem
+*.p12
+*.crt
+*.sqlite
+*.db
+# === Shadowmaker / AEVO local safety ===
+# Python / cache
+*.pyo
+.pytest_cache/
+.mypy_cache/
+# Logs / generated runs
+logs/
+runs/
+eval_runs/
+model_tests/
+rag_backups/
+textbot_backups/
+AEVO_Export/
+# Local model/API outputs
+shadowmaker_v7_km/output/
+**/output/*.json
+**/outputs/*.json
+# Local media / desktop noise
+*.mp4
+*.xspf
+chrome-*-Default.desktop
+# Local temporary / private text dumps
+hier ist es.txt
+Ergebnis.txt
+# === Additional AEVO safety ignores ===
+textbot/backups/
+**/backups/
+**/*.bak
+**/*.bak_*
+*.swp
+# Local/private dumps
+# Generated/eval artifacts
+**/output/
+**/outputs/
+# Browser/launcher noise
+# === AEVO final safety ignores ===
+*.bak_*

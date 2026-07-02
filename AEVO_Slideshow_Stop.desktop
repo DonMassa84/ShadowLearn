@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Slideshow Stop
+Exec=bash -lc 'aevo-stop'
+Terminal=false
+Categories=Utility;

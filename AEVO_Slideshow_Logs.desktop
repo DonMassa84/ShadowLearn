@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=AEVO Slideshow Logs
+Exec=bash -lc 'aevo-logs'
+Terminal=false
+Categories=Utility;
